@@ -5,9 +5,23 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+.knowwhat{
 
-a {
-  color: inherit;
+  margin-bottom:2rem;
+}
+.testbg{
+
+  background: linear-gradient(rgba(0,0,0,0),
+  rgba(0, 0, 0, 0)), url('/Photo/wallhaven-289079.jpg');
+  background-repeat: no-repeat;background-size: cover;
+}
+.donsee{
+  display: none;
+}
+.needwhite{
+  color: white;
+}
+.noUnderline{
   text-decoration: none;
 }
 
@@ -15,12 +29,3 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
